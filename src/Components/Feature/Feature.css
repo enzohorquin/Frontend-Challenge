@@ -1,0 +1,54 @@
+.parrafo-center{ 
+       font-size:600;
+       margin: 0px;
+       width:60%;
+       text-align: center;
+        margin-left:300px;
+}
+
+.titulo-center{
+    font-size:700;
+}
+
+.center {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left {
+    align-items:left;
+    font-family: 'Open Sans', sans-serif;
+}
+.parrafo-left{
+    font-size:400;
+}
+.titulo-left{
+    font-size:700;
+}
+@media only screen and (max-width: 768px) {
+    .parrafo-center{ 
+        font-size:600;
+        margin: 0px;
+        width:100%;
+        text-align: center;       
+ }
+
+    .left{
+        align-items:center;
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+    .parrafo-left{
+        font-size:600;
+        margin: 0px;
+        
+        text-align: center;
+    }
+    .titulo-left{
+        font-size:700;
+        margin: 0px;;
+        
+        text-align: center;
+    }
+}
+

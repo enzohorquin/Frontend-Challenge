@@ -1,0 +1,129 @@
+
+.footer{
+    width:100%; 
+    background-color:#6A5ACD;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+}
+.foot {
+    margin-top:20px;
+}
+.icons {
+    display:flex;
+    flex-direction: row;
+    margin:10px 10px;
+}
+.icon {
+    margin-left:35px;
+    display:flex;
+    flex-direction: row;
+    margin-top:10px;
+    float:left;
+    
+}
+.subscribe{
+    float: right;
+    align-items:right;
+}
+.copy-right{
+    display:flex;
+    flex-direction:row;
+    float:left;
+    align-items:left;
+   
+}
+.copy-right-label{
+    font-size:1em;
+    margin-top:17px;
+}
+.icon-2{
+    margin-left: 50px;
+    margin-top:20px;
+    display:flex;
+    flex-direction:row;
+    font-size:0.5em;
+}
+.col{
+    
+    display: inline-block;
+    width:49%;
+    align-self:center;
+    margin-left:15px;
+    margin-top:5px;
+}
+.label{
+    margin-top:3px;
+    
+    flex-direction:column;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .footer{
+        width:100%; 
+        background-color:#6A5ACD;
+        height:800px;
+        display:flex;
+        flex-direction: column;
+       
+    }
+
+    .icon{
+        order:1;
+        align-self: center;
+        margin-top:5px;
+    }
+    
+    .label{
+       
+        float:left;
+        font-size:1.5em;
+        order:1;
+        margin-left:20px;
+       
+   
+    }
+    .col{
+        display: inline-block;
+        width:70%;
+        margin: .4em ;
+        align-self: center;
+        margin-bottom:2px;
+        order:2;
+       
+    }
+    .foot {
+        margin-top:80px;
+        align-self: center;
+        justify-content: center;
+        margin-bottom:30px;
+        margin-left:50px;
+    }
+    .subscribe{
+        float: center;
+        align-items:center;
+        order:0;
+    }
+    
+    .copy-right{
+        display:flex;
+        flex-direction:row;
+        order:3;
+        align-self: center;
+       margin-bottom: 15px;
+    }
+    .copy-right-label{
+        font-size:1em;
+        margin-top:17px;
+    }
+    .icon-2{
+  
+        margin-top:20px;
+        display:flex;
+        flex-direction:row;
+        font-size:0.5em;
+    }
+
+
+}
